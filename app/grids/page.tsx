@@ -80,10 +80,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">12 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-1.png" 
+                    alt="12 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -101,10 +105,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">8 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-2.png" 
+                    alt="8 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -122,10 +130,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">6 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-3.png" 
+                    alt="6 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -143,10 +155,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">4 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-4.png" 
+                    alt="4 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -164,10 +180,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">3 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-5.png" 
+                    alt="3 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -185,10 +205,14 @@ export default function GridSystemPage() {
                 </div>
               </div>
 
-              {/* Grid Example Placeholder */}
+              {/* Grid Example */}
               <div className="w-full">
-                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg h-[400px] flex items-center justify-center relative">
-                  <p className="text-grey-300 text-center">2 Column Grid Example<br />(画像は後ほど追加予定)</p>
+                <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
+                  <img 
+                    src="/assets/images/gridsystem-img-6.png" 
+                    alt="2 Column Grid System Example"
+                    className="w-full h-auto object-cover"
+                  />
                 </div>
               </div>
             </div>
