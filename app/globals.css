@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* カスタムレターススペーシング調整用のヘルパークラス */
+.adjustLetterSpacing {
+  letter-spacing: inherit;
+}
+
+/* 画像プレースホルダー用のスタイル */
+.image-placeholder {
+  background-color: #9ca3af;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* 画像サイズ固定用クラス - 直接1265×709pxに強制指定 */
+.force-image-size {
+  width: 1265px !important;
+  height: 709px !important;
+  min-width: 1265px !important;
+  min-height: 709px !important;
+  max-width: 1265px !important;
+  max-height: 709px !important;
+  display: block !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+  flex-shrink: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Host Grotesk', sans-serif;
+}
+
+/* スクロール連動ナビゲーション */
+.scroll-hide-nav {
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-hide-nav:not(:hover) {
+  transform: translateY(-100%);
+}
+
+@media (max-height: 500px) {
+  .scroll-hide-nav {
+    transform: translateY(0) !important;
+  }
+}
+
+
+
+/* 日本語テキスト用 */
+.font-jp {
+  font-family: 'IBM Plex Sans JP', 'Noto Sans JP', sans-serif;
+}
+
+/* 固定100pxパディング + 可変ウィンドウ対応 */
+.fixed-padding-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .fixed-padding-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fixed-padding-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.content-responsive {
+  width: 100%;
+  max-width: 1775px;
+  margin: 0 auto;
+} 
