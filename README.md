@@ -44,20 +44,50 @@
 
 ```
 kit_designsystem/
-├── app/
-│   ├── globals.css      # グローバルスタイル（Google Fonts読み込み含む）
-│   ├── layout.tsx       # ルートレイアウト
-│   └── page.tsx         # Getting Startedページ（センター揃えレイアウト）
-├── components/
-│   └── Logo.tsx         # ロゴコンポーネント
+├── app/                          # Next.js App Router
+│   ├── color/                    # カラーセクション
+│   │   ├── page.tsx             # メインカラーページ
+│   │   ├── wiki/                # カラーWiki
+│   │   ├── documentation/       # カラー詳細ドキュメント  
+│   │   ├── resources/           # カラーリソース
+│   │   └── gradients/           # グラデーション
+│   ├── logo/                     # ロゴセクション
+│   │   ├── page.tsx             # メインロゴページ
+│   │   ├── wiki/                # ロゴWiki
+│   │   └── placeholder-logos/   # プレースホルダーロゴ
+│   ├── type/                     # タイポグラフィセクション
+│   │   ├── page.tsx             # タイプメインページ
+│   │   ├── typography-en/       # 英語タイポグラフィ
+│   │   ├── typography-jp/       # 日本語タイポグラフィ
+│   │   ├── wiki/                # タイプWiki
+│   │   ├── documentation/       # タイプドキュメント
+│   │   └── resources/           # タイプリソース
+│   ├── icons/                    # アイコンセクション
+│   │   ├── page.tsx             # ブランドアイコン（メイン）
+│   │   ├── company-icons/       # 会社アイコン
+│   │   ├── wiki/                # アイコンWiki  
+│   │   └── documentation/       # アイコンドキュメント
+│   ├── imagery/                  # イメージセクション
+│   │   ├── page.tsx             # ポートレート（メイン）
+│   │   ├── textures/            # テクスチャ
+│   │   ├── wiki/                # イメージWiki
+│   │   └── documentation/       # イメージドキュメント
+│   ├── grids/                    # グリッドセクション
+│   │   └── page.tsx             # グリッドシステム
+│   ├── globals.css               # グローバルスタイル
+│   ├── layout.tsx                # ルートレイアウト
+│   └── page.tsx                  # Getting Startedホームページ
+├── components/                   # 共通コンポーネント
+│   ├── Logo.tsx                  # ロゴコンポーネント
+│   └── ScrollNavigation.tsx      # ナビゲーションコンポーネント
 ├── public/
-│   └── assets/          # 静的アセット管理
-│       ├── icons/       # SVGアイコン、ファビコン
-│       ├── images/      # 写真、背景画像、装飾画像
-│       ├── logos/       # ロゴ画像（SVG、PNG）
-│       ├── illustrations/  # イラスト、グラフィック素材
-│       └── README.md    # アセット管理ガイド
-├── tailwind.config.ts   # カスタムカラー・フォント設定
+│   └── assets/                   # 静的アセット管理
+│       ├── icons/                # SVGアイコン、ファビコン
+│       ├── images/               # ページ用画像、背景画像
+│       ├── logos/                # ロゴ画像（SVG、PNG）
+│       ├── illustrations/        # イラスト、グラフィック素材
+│       └── README.md             # アセット管理ガイド
+├── tailwind.config.ts            # カスタムカラー・フォント設定
 ├── package.json
 ├── README.md
 └── .gitignore
