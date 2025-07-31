@@ -29,6 +29,15 @@ const config: Config = {
       backgroundImage: {
         'gradient-brand': 'linear-gradient(119.396deg, rgb(252, 193, 136) 0%, rgb(112, 66, 210) 65.068%, rgb(46, 0, 142) 100%)',
       },
+      animation: {
+        'fade-in': 'fadeIn 0.2s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+      },
     },
   },
   plugins: [],

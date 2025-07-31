@@ -17,6 +17,8 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
   const [isImageryDropdownHovered, setIsImageryDropdownHovered] = useState(false);
   const [isGridsDropdownHovered, setIsGridsDropdownHovered] = useState(false);
   const [isEffectsDropdownHovered, setIsEffectsDropdownHovered] = useState(false);
+  const [quickNavVisible, setQuickNavVisible] = useState(false);
+  const [quickNavPosition, setQuickNavPosition] = useState({ x: 0, y: 0 });
   const isLogoDropdownHoveredRef = useRef(false);
   const isColorDropdownHoveredRef = useRef(false);
   const isTypeDropdownHoveredRef = useRef(false);
@@ -42,6 +44,11 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
       setIsVisible(true);
     }
   }, [isLogoDropdownHovered, isColorDropdownHovered, isTypeDropdownHovered, isIconsDropdownHovered, isImageryDropdownHovered, isGridsDropdownHovered, isEffectsDropdownHovered]);
+
+  const closeQuickNav = () => {
+    console.log('🔴 closeQuickNav called - closing menu');
+    setQuickNavVisible(false);
+  };
 
   useEffect(() => {
     let ticking = false;
@@ -75,8 +82,68 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
     };
 
     window.addEventListener('scroll', controlNavbar);
-    return () => window.removeEventListener('scroll', controlNavbar);
+    
+    return () => {
+      window.removeEventListener('scroll', controlNavbar);
+    };
   }, []);
+
+  // 右クリックコンテキストメニュー実装
+  useEffect(() => {
+    const handleRightClick = (e: MouseEvent) => {
+      e.preventDefault(); // ブラウザのデフォルト右クリックメニューを無効化
+      console.log('🖱️👆 Right click detected!');
+      
+      if (quickNavVisible) {
+        console.log('❌ Menu already visible, ignoring');
+        return;
+      }
+      
+      const padding = 16;
+      const navWidth = 224;
+      const navHeight = 320;
+      
+      let x = e.clientX + padding;
+      let y = e.clientY + padding;
+      
+      if (x + navWidth > window.innerWidth) {
+        x = e.clientX - navWidth - padding;
+      }
+      if (y + navHeight > window.innerHeight) {
+        y = e.clientY - navHeight - padding;
+      }
+      
+      x = Math.max(padding, x);
+      y = Math.max(padding, y);
+      
+      setQuickNavPosition({ x, y });
+      setQuickNavVisible(true);
+      console.log('✅ Menu shown at:', { x, y });
+    };
+    
+    const handleOutsideClick = (e: MouseEvent) => {
+      if (!quickNavVisible) return;
+      
+      console.log('🖱️ Click detected while menu visible');
+      
+      const target = e.target as Element;
+      const navElement = target.closest('[data-quick-nav]');
+      if (!navElement) {
+        console.log('❌ Outside click - closing menu');
+        setQuickNavVisible(false);
+      } else {
+        console.log('✅ Inside click - keeping menu open');
+      }
+    };
+    
+    document.addEventListener('contextmenu', handleRightClick);
+    document.addEventListener('click', handleOutsideClick);
+    
+    return () => {
+      document.removeEventListener('contextmenu', handleRightClick);
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, [quickNavVisible]);
 
   return (
     <div className={`sticky top-0 z-50 transition-transform duration-300 ${
@@ -356,6 +423,106 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
             </div>
           </div>
         </div>
+
+        {/* クイックナビゲーション */}
+        {quickNavVisible && (
+          <>
+            {/* 薄い背景 */}
+            <div className="fixed inset-0 z-[100] bg-grey-900/1" />
+            
+            {/* ナビゲーション */}
+            <div 
+              data-quick-nav
+              className="fixed z-[110] bg-grey-900/90 backdrop-blur-lg rounded-2xl p-4 w-56 animate-fade-in shadow-2xl"
+              style={{
+                left: `${quickNavPosition.x}px`,
+                top: `${quickNavPosition.y}px`,
+              }}
+            >
+              <div className="space-y-2">
+                <Link 
+                  href="/" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Started
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/logo" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Logo
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/color" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Color
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/type/typography-en" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Type
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/icons" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Icons
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/imagery" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Imagery
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/grids" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Grids
+                  </div>
+                </Link>
+                
+                <Link 
+                  href="/effects" 
+                  className="block w-full hover:bg-grey-700/60 transition-all duration-200 rounded-lg px-3 py-2 text-left group"
+                  onClick={closeQuickNav}
+                >
+                  <div className="text-grey-50 font-host-grotesk font-medium text-sm group-hover:text-white transition-colors">
+                    Effects
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </>
+        )}
     </div>
   );
 } 
