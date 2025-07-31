@@ -90,7 +90,7 @@ export default function TypeDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Type_Documentation_img-1.png" 
+                  src="/assets/images/type_documentation_01.png" 
                   alt="Fonts Used"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -141,7 +141,7 @@ export default function TypeDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Type_Documentation_img-2.png" 
+                  src="/assets/images/type_documentation_02.png" 
                   alt="Accessing The Type Styles"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -192,7 +192,7 @@ export default function TypeDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Type_Documentation_img-3.png" 
+                  src="/assets/images/type_documentation_03.png" 
                   alt="Using The Typography"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -243,7 +243,7 @@ export default function TypeDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Type_Documentation_img-4.png" 
+                  src="/assets/images/type_documentation_04.png" 
                   alt="Updating The Type"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />

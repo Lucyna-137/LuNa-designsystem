@@ -85,7 +85,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-1.png"
+                src="/assets/images/home_started_01.png"
                 alt="Core Brand Elements"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -142,7 +142,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-2.png"
+                src="/assets/images/home_started_02.png"
                 alt="Brand Guidelines"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -157,7 +157,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-3.png"
+                src="/assets/images/home_started_03.png"
                 alt="Brand Guidelines - Wiki"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -214,7 +214,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-4.png"
+                src="/assets/images/home_started_04.png"
                 alt="Basic Components"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -271,7 +271,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-5.png"
+                src="/assets/images/home_started_05.png"
                 alt="Browsers & Devices"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -328,7 +328,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-6.png"
+                src="/assets/images/home_started_06.png"
                 alt="Social Templates"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 
@@ -385,7 +385,7 @@ export default function GettingStarted() {
               data-name="Image"
             >
               <img
-                src="/assets/images/Started-img-7.png"
+                src="/assets/images/home_started_07.png"
                 alt="Email UI"
                 className="block rounded-[10px] w-full h-auto"
                 style={{ 

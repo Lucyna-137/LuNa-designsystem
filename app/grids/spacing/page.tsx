@@ -84,7 +84,7 @@ export default function SpacingPage() {
               <div className="w-full">
                 <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/Spacing-img-1.png" 
+                    src="/assets/images/grids_spacing_01.png" 
                     alt="Horizontal Spacing System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -137,7 +137,7 @@ export default function SpacingPage() {
               <div className="w-full">
                 <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/Spacing-img-2.png" 
+                    src="/assets/images/grids_spacing_02.png" 
                     alt="Vertical Rhythm System Example"
                     className="w-full h-auto object-cover"
                   />

@@ -84,84 +84,84 @@ export default function ImageryPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 md:gap-x-8 lg:gap-x-10 gap-y-20 w-full">
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/01_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_01.png" 
                     alt="Avatar 1"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/02_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_02.png" 
                     alt="Avatar 2"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/03_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_03.png" 
                     alt="Avatar 3"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/04_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_04.png" 
                     alt="Avatar 4"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/05_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_05.png" 
                     alt="Avatar 5"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/06_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_06.png" 
                     alt="Avatar 6"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/07_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_07.png" 
                     alt="Avatar 7"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/08_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_08.png" 
                     alt="Avatar 8"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/09_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_09.png" 
                     alt="Avatar 9"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/10_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_10.png" 
                     alt="Avatar 10"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/11_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_11.png" 
                     alt="Avatar 11"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/12_Portraits_avatarSquare.png" 
+                    src="/assets/images/imagery_portraits_12.png" 
                     alt="Avatar 12"
                     className="w-full h-full object-cover rounded-xl"
                   />

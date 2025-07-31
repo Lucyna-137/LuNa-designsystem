@@ -92,7 +92,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-1.png"
+                        src="/assets/images/type_resources_01.png"
                         alt="Apple Type Guide Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -122,7 +122,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-2.png"
+                        src="/assets/images/type_resources_02.png"
                         alt="Material Design Typography Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -152,7 +152,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-3.png"
+                        src="/assets/images/type_resources_03.png"
                         alt="Brand Mastery Course Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -185,7 +185,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-4.png"
+                        src="/assets/images/type_resources_04.png"
                         alt="Typewolf Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -215,7 +215,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-5.png"
+                        src="/assets/images/type_resources_05.png"
                         alt="Fonts In Use Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -245,7 +245,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-6.png"
+                        src="/assets/images/type_resources_06.png"
                         alt="Type Scale Calculator Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -324,7 +324,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-7.png"
+                        src="/assets/images/type_resources_07.png"
                         alt="Pangram Pangram Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -348,7 +348,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-8.png"
+                        src="/assets/images/type_resources_08.png"
                         alt="Grilli Type Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -372,7 +372,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-9.png"
+                        src="/assets/images/type_resources_09.png"
                         alt="Klim Type Foundry Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -399,7 +399,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-10.png"
+                        src="/assets/images/type_resources_10.png"
                         alt="Colophon Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -423,7 +423,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-11.png"
+                        src="/assets/images/type_resources_11.png"
                         alt="Sharpe Type Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -447,7 +447,7 @@ export default function TypeResourcesPage() {
                   >
                     <div className="relative w-full">
                       <img
-                        src="/assets/images/Type_resources_img-12.png"
+                        src="/assets/images/type_resources_12.png"
                         alt="CoType Screenshot"
                         className="w-full h-auto max-w-full"
                       />
@@ -518,7 +518,7 @@ export default function TypeResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Type_resources_img-13.png"
+                      src="/assets/images/type_resources_13.png"
                       alt="Thinking With Type Book Cover"
                       className="w-full h-auto max-w-full"
                     />
@@ -540,7 +540,7 @@ export default function TypeResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Type_resources_img-14.png"
+                      src="/assets/images/type_resources_14.png"
                       alt="The Elements of Typographic Style Book Cover"
                       className="w-full h-auto max-w-full"
                     />
@@ -562,7 +562,7 @@ export default function TypeResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Type_resources_img-15.png"
+                      src="/assets/images/type_resources_15.png"
                       alt="Stop Stealing Sheep & Find Out How Type Works Book Cover"
                       className="w-full h-auto max-w-full"
                     />

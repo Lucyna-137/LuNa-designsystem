@@ -84,7 +84,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-1.png" 
+                    src="/assets/images/grids_system_01.png" 
                     alt="12 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -109,7 +109,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-2.png" 
+                    src="/assets/images/grids_system_02.png" 
                     alt="8 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -134,7 +134,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-3.png" 
+                    src="/assets/images/grids_system_03.png" 
                     alt="6 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -159,7 +159,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-4.png" 
+                    src="/assets/images/grids_system_04.png" 
                     alt="4 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -184,7 +184,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-5.png" 
+                    src="/assets/images/grids_system_05.png" 
                     alt="3 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />
@@ -209,7 +209,7 @@ export default function GridSystemPage() {
               <div className="w-full">
                 <div className="bg-grey-900 border border-grey-300 border-solid rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/gridsystem-img-6.png" 
+                    src="/assets/images/grids_system_06.png" 
                     alt="2 Column Grid System Example"
                     className="w-full h-auto object-cover"
                   />

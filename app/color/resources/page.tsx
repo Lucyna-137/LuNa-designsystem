@@ -90,7 +90,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-1.png"
+                      src="/assets/images/color_resources_01.png"
                       alt="Apple Color Guide Screenshot"
                       className="w-full h-auto max-w-full"
                     />
@@ -118,7 +118,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-2.png"
+                      src="/assets/images/color_resources_02.png"
                       alt="Material Design Color Screenshot"
                       className="w-full h-auto max-w-full"
                     />
@@ -146,7 +146,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-3.png"
+                      src="/assets/images/color_resources_03.png"
                       alt="Brand Mastery Course Screenshot"
                       className="w-full h-auto max-w-full"
                     />
@@ -220,7 +220,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-4.png"
+                      src="/assets/images/color_resources_04.png"
                       alt="Interaction of Color Book Cover"
                       className="w-full h-auto max-w-full"
                     />
@@ -242,7 +242,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-5.png"
+                      src="/assets/images/color_resources_05.png"
                       alt="Color Mania Book Cover"
                       className="w-full h-auto max-w-full"
                     />
@@ -264,7 +264,7 @@ export default function ColorResourcesPage() {
                 >
                   <div className="relative w-full">
                     <img
-                      src="/assets/images/Color_Resources_img-6.png"
+                      src="/assets/images/color_resources_06.png"
                       alt="Graphic Design The New Basics Book Cover"
                       className="w-full h-auto max-w-full"
                     />

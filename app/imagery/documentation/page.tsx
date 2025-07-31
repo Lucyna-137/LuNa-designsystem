@@ -84,14 +84,14 @@ export default function ImageryDocumentationPage() {
               <div className="box-border content-stretch flex flex-col gap-10 items-start justify-start p-0 relative shrink-0 w-full">
                 <div className="w-full">
                   <img 
-                    src="/assets/images/img_Documentation_img-1.png" 
+                    src="/assets/images/imagery_documentation_01.png" 
                     alt="Portrait Example"
                     className="w-full h-auto object-cover rounded-[10px]"
                   />
                 </div>
                 <div className="w-full">
                   <img 
-                    src="/assets/images/img_Documentation_img-2.png" 
+                    src="/assets/images/imagery_documentation_02.png" 
                     alt="Texture Example"
                     className="w-full h-auto object-cover rounded-[10px]"
                   />
@@ -143,7 +143,7 @@ export default function ImageryDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/img_Documentation_img-3.png" 
+                  src="/assets/images/imagery_documentation_03.png" 
                   alt="Accessing The Imagery"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -194,7 +194,7 @@ export default function ImageryDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/img_Documentation_img-4.png" 
+                  src="/assets/images/imagery_documentation_04.png" 
                   alt="Using The Imagery"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />

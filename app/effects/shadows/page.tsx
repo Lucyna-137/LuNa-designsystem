@@ -84,7 +84,7 @@ export default function ShadowsPage() {
               <div className="w-full">
                 <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                   <img 
-                    src="/assets/images/Shadows_img.png" 
+                    src="/assets/images/effects_shadows_01.png" 
                     alt="Drop Shadows"
                     className="block"
                   />

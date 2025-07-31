@@ -468,7 +468,7 @@ export default function ColorWikiPage() {
               data-name="Color"
             >
               <img
-                src="/assets/images/Color_wiki_img-1.png"
+                src="/assets/images/color_wiki_01.png"
                 alt="Color Wiki"
                 className="block w-full h-auto"
                 style={{ 
@@ -526,7 +526,7 @@ export default function ColorWikiPage() {
             >
               <div className="flex flex-row gap-[47px] items-start justify-start w-full" style={{transform: 'scale(min(1, (100vw - 200px) / (560px * 3 + 47px * 2)))', transformOrigin: 'left top'}}>
                 <img
-                  src="/assets/images/Color_wiki_img-2.png"
+                  src="/assets/images/color_wiki_02.png"
                   alt="Rajah Color"
                   style={{ 
                     objectFit: 'contain',
@@ -539,7 +539,7 @@ export default function ColorWikiPage() {
                   }}
                 />
                 <img
-                  src="/assets/images/Color_wiki_img-3.png"
+                  src="/assets/images/color_wiki_03.png"
                   alt="Indigo Color"
                   style={{ 
                     objectFit: 'contain',
@@ -552,7 +552,7 @@ export default function ColorWikiPage() {
                   }}
                 />
                 <img
-                  src="/assets/images/Color_wiki_img-4.png"
+                  src="/assets/images/color_wiki_04.png"
                   alt="Rose Color"
                   style={{ 
                     objectFit: 'contain',
@@ -672,7 +672,7 @@ export default function ColorWikiPage() {
                 data-name="Main Gradient"
               >
                 <img
-                  src="/assets/images/Color_wiki_img-5.png"
+                  src="/assets/images/color_wiki_05.png"
                   alt="Main Linear Gradient"
                   className="w-full h-auto"
                   style={{ 
@@ -691,7 +691,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 1"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-6.png"
+                    src="/assets/images/color_wiki_06.png"
                     alt="Linear Gradient 1"
                     className="w-full h-auto"
                     style={{ 
@@ -706,7 +706,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 2"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-7.png"
+                    src="/assets/images/color_wiki_07.png"
                     alt="Linear Gradient 2"
                     className="w-full h-auto"
                     style={{ 
@@ -721,7 +721,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 3"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-8.png"
+                    src="/assets/images/color_wiki_08.png"
                     alt="Linear Gradient 3"
                     className="w-full h-auto"
                     style={{ 
@@ -736,7 +736,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 4"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-9.png"
+                    src="/assets/images/color_wiki_09.png"
                     alt="Linear Gradient 4"
                     className="w-full h-auto"
                     style={{ 
@@ -799,7 +799,7 @@ export default function ColorWikiPage() {
                 data-name="Main Gradient"
               >
                 <img
-                  src="/assets/images/Color_wiki_img-10.png"
+                  src="/assets/images/color_wiki_10.png"
                   alt="Main Fade To Black Gradient"
                   className="w-full h-auto"
                   style={{ 
@@ -818,7 +818,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 1"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-11.png"
+                    src="/assets/images/color_wiki_11.png"
                     alt="Fade To Black Gradient 1"
                     className="w-full h-auto"
                     style={{ 
@@ -833,7 +833,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 2"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-12.png"
+                    src="/assets/images/color_wiki_12.png"
                     alt="Fade To Black Gradient 2"
                     className="w-full h-auto"
                     style={{ 
@@ -848,7 +848,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 3"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-13.png"
+                    src="/assets/images/color_wiki_13.png"
                     alt="Fade To Black Gradient 3"
                     className="w-full h-auto"
                     style={{ 
@@ -863,7 +863,7 @@ export default function ColorWikiPage() {
                   data-name="Gradient 4"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-14.png"
+                    src="/assets/images/color_wiki_14.png"
                     alt="Fade To Black Gradient 4"
                     className="w-full h-auto"
                     style={{ 
@@ -930,7 +930,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 1"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-15.png"
+                    src="/assets/images/color_wiki_15.png"
                     alt="Primary 400 + Coral Reef 400"
                     className="w-full h-auto"
                     style={{ 
@@ -949,7 +949,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 2"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-16.png"
+                    src="/assets/images/color_wiki_16.png"
                     alt="Turquoise 400 + Primary 500"
                     className="w-full h-auto"
                     style={{ 
@@ -968,7 +968,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 3"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-17.png"
+                    src="/assets/images/color_wiki_17.png"
                     alt="Primary 200 + Indigo 400"
                     className="w-full h-auto"
                     style={{ 
@@ -992,7 +992,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 4"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-18.png"
+                    src="/assets/images/color_wiki_18.png"
                     alt="Coral Reef 100 + Red 500"
                     className="w-full h-auto"
                     style={{ 
@@ -1011,7 +1011,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 5"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-19.png"
+                    src="/assets/images/color_wiki_19.png"
                     alt="Red 300 + Grey 900"
                     className="w-full h-auto"
                     style={{ 
@@ -1030,7 +1030,7 @@ export default function ColorWikiPage() {
                   data-name="Combination 6"
                 >
                   <img
-                    src="/assets/images/Color_wiki_img-20.png"
+                    src="/assets/images/color_wiki_20.png"
                     alt="Primary 400 + Rajah 400"
                     className="w-full h-auto"
                     style={{ 

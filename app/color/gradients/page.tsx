@@ -56,19 +56,19 @@ export default function GradientsPage() {
       title: "3 Tone Linear Gradient",
       gradients: [
         { 
-          imageSrc: "/assets/images/Gradients-img-1.png", 
+          imageSrc: "/assets/images/color_gradients_01.png", 
           colors: "#4643FF • #FF706B • #FFAAA5" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-2.png", 
+          imageSrc: "/assets/images/color_gradients_02.png", 
           colors: "#66FFFF • #6644FF • #7712FF" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-3.png", 
+          imageSrc: "/assets/images/color_gradients_03.png", 
           colors: "#FCC11B • #7D4204 • #2E0DEE" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-4.png", 
+          imageSrc: "/assets/images/color_gradients_04.png", 
           colors: "#FF76F6 • #FE3C06 • #FF6401" 
         }
       ]
@@ -77,19 +77,19 @@ export default function GradientsPage() {
       title: "Fade To Black Linear Gradient",
       gradients: [
         { 
-          imageSrc: "/assets/images/Gradients-img-5.png", 
+          imageSrc: "/assets/images/color_gradients_05.png", 
           colors: "#6B65FB • #8D52F7 • #000000" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-6.png", 
+          imageSrc: "/assets/images/color_gradients_06.png", 
           colors: "#FF10A5 • #FF6649 • #000000" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-7.png", 
+          imageSrc: "/assets/images/color_gradients_07.png", 
           colors: "#51F5F3 • #4444FF • #000000" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-8.png", 
+          imageSrc: "/assets/images/color_gradients_08.png", 
           colors: "#FFC524 • #FF5408 • #000000" 
         }
       ]
@@ -98,19 +98,19 @@ export default function GradientsPage() {
       title: "Greyscale Gradient",
       gradients: [
         { 
-          imageSrc: "/assets/images/Gradients-img-9.png", 
+          imageSrc: "/assets/images/color_gradients_09.png", 
           colors: "#F5F7FA • #000000" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-10.png", 
+          imageSrc: "/assets/images/color_gradients_10.png", 
           colors: "#C9D1DB • #64571F" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-11.png", 
+          imageSrc: "/assets/images/color_gradients_11.png", 
           colors: "#372D4E • #61571F" 
         },
         { 
-          imageSrc: "/assets/images/Gradients-img-12.png", 
+          imageSrc: "/assets/images/color_gradients_12.png", 
           colors: "#A6A4A0 • #FF9A3A" 
         }
       ]

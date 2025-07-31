@@ -84,84 +84,84 @@ export default function TexturesPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 md:gap-x-8 lg:gap-x-10 gap-y-20 w-full">
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/01_Textures.png" 
+                    src="/assets/images/imagery_textures_01.png" 
                     alt="Texture 1"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/02_Textures.png" 
+                    src="/assets/images/imagery_textures_02.png" 
                     alt="Texture 2"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/03_Textures.png" 
+                    src="/assets/images/imagery_textures_03.png" 
                     alt="Texture 3"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/04_Textures.png" 
+                    src="/assets/images/imagery_textures_04.png" 
                     alt="Texture 4"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/05_Textures.png" 
+                    src="/assets/images/imagery_textures_05.png" 
                     alt="Texture 5"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/06_Textures.png" 
+                    src="/assets/images/imagery_textures_06.png" 
                     alt="Texture 6"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/07_Textures.png" 
+                    src="/assets/images/imagery_textures_07.png" 
                     alt="Texture 7"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/08_Textures.png" 
+                    src="/assets/images/imagery_textures_08.png" 
                     alt="Texture 8"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/09_Textures.png" 
+                    src="/assets/images/imagery_textures_09.png" 
                     alt="Texture 9"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/10_Textures.png" 
+                    src="/assets/images/imagery_textures_10.png" 
                     alt="Texture 10"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/11_Textures.png" 
+                    src="/assets/images/imagery_textures_11.png" 
                     alt="Texture 11"
                     className="w-full h-full object-cover rounded-xl"
                   />
                 </div>
                 <div className="relative aspect-square">
                   <img 
-                    src="/assets/images/12_Textures.png" 
+                    src="/assets/images/imagery_textures_12.png" 
                     alt="Texture 12"
                     className="w-full h-full object-cover rounded-xl"
                   />

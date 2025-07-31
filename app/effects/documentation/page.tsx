@@ -83,7 +83,7 @@ export default function EffectsDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Effects_Documentation_img-1.png" 
+                  src="/assets/images/effects_documentation_01.png" 
                   alt="Using The Shadows & Blur Documentation"
                   className="block"
                 />
@@ -134,7 +134,7 @@ export default function EffectsDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Effects_Documentation_img-2.png" 
+                  src="/assets/images/effects_documentation_02.png" 
                   alt="Updating The Effects Documentation"
                   className="block"
                 />

@@ -84,7 +84,7 @@ export default function ColorDocumentationPage() {
                 data-name="Image"
               >
                 <img
-                  src="/assets/images/Color_Documentation_img-1.png"
+                  src="/assets/images/color_documentation_01.png"
                   alt="Accessing Colors - Figma Color Styles Panel"
                   className="max-w-full h-auto"
                 />
@@ -136,7 +136,7 @@ export default function ColorDocumentationPage() {
                 data-name="Image"
               >
                 <img
-                  src="/assets/images/Color_Documentation_img-2.png"
+                  src="/assets/images/color_documentation_02.png"
                   alt="Using Colors - Figma Color Panel Screenshots"
                   className="max-w-full h-auto"
                 />
@@ -188,7 +188,7 @@ export default function ColorDocumentationPage() {
                 data-name="Image"
               >
                 <img
-                  src="/assets/images/Color_Documentation_img-3.png"
+                  src="/assets/images/color_documentation_03.png"
                   alt="Updating Colors - Figma Style Editing Screenshots"
                   className="max-w-full h-auto"
                 />

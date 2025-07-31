@@ -1,181 +1,140 @@
-# Design System - Getting Started
+# 🎨 Kit Design System
 
-社内容デザインシステムのスターターテンプレートです。Figmaデザインを完全に再現し、レスポンシブ対応されています。
+> Next.jsで構築された包括的なデザインシステム。完全なナビゲーション、複数のセクション、美しいインターフェースを提供します。
 
-## 特徴
+## ✨ 特徴
 
-- ✨ **Figmaデザイン完全再現**: Figmaで作成されたデザインを完全に再現
-- 📱 **レスポンシブ対応**: モバイル、タブレット、デスクトップに最適化
-- 🎯 **センター揃えレイアウト**: コンテンツが美しくセンターに配置
-- 🎨 **カスタムフォント**: Host Grotesk（英語）、IBM Plex Sans JP（日本語）
-- 🔧 **Next.js + TypeScript**: 最新の技術スタックを使用
-- 🎯 **Tailwind CSS**: 効率的なスタイリング
-- 🌈 **グラデーション背景**: 美しいブランドカラーグラデーション
-- 🖼️ **実際の画像とロゴ**: SVGロゴと高品質画像を使用
+- 🎯 **完全なデザインシステム**: 7つのメインセクションを持つフル機能のデザインシステム
+- 📱 **レスポンシブデザイン**: モバイル、タブレット、デスクトップに最適化
+- 🧭 **スマートナビゲーション**: ホバー状態付きの動的ドロップダウンナビゲーション
+- 🎨 **多言語対応**: 英語・日本語コンテンツ
+- 🖼️ **画像ギャラリー**: 129枚以上の整理された画像と統一された命名規則
+- ⚡ **モダンスタック**: Next.js 14 + TypeScript + Tailwind CSS
 
-## 技術スタック
+## 🚀 クイックスタート
 
-- **フレームワーク**: Next.js 14
-- **言語**: TypeScript
-- **スタイリング**: Tailwind CSS
-- **フォント**: Google Fonts (Host Grotesk, IBM Plex Sans JP)
+```bash
+# 依存関係のインストール
+npm install
 
-## セットアップ
+# 開発サーバーの起動
+npm run dev
 
-1. **プロジェクトディレクトリに移動**
-   ```bash
-   cd kit_designsystem
-   ```
+# ブラウザでアクセス
+open http://localhost:3000
+```
 
-2. **依存関係のインストール**
-   ```bash
-   npm install
-   ```
+## 📱 セクション概要
 
-3. **開発サーバーの起動**
-   ```bash
-   npm run dev
-   ```
+| セクション | ページ数 | 説明 |
+|---------|-------|-------------|
+| 🏠 **ホーム** | Getting Started | 7つの機能セクションがあるメインランディングページ |
+| 🎨 **カラー** | Color, Gradients, Wiki, Documentation, Resources | 41枚以上の画像を持つ完全なカラーシステム |
+| ✍️ **タイプ** | Typography EN/JP, Wiki, Documentation, Resources | 22枚以上の画像を持つタイポグラフィシステム |
+| 🎯 **アイコン** | Brand Icons, Company Icons, Wiki, Documentation | 5つ以上のサンプルがあるアイコンライブラリ |
+| 🖼️ **イメージ** | Portraits, Textures, Wiki, Documentation | 28枚以上のアセットがある画像ギャラリー |
+| 🏗️ **グリッド** | Grid System, Spacing, Wiki, Documentation | 11枚以上のサンプルがあるレイアウトシステム |
+| ✨ **エフェクト** | Blur, Shadows, Wiki, Documentation | 9枚以上のサンプルがある視覚効果 |
 
-4. **ブラウザでアクセス**
-   [http://localhost:3000](http://localhost:3000) にアクセスしてページを確認
-
-## プロジェクト構造
+## 🗂️ プロジェクト構造
 
 ```
 kit_designsystem/
-├── app/                          # Next.js App Router
-│   ├── color/                    # カラーセクション
-│   │   ├── page.tsx             # メインカラーページ
-│   │   ├── wiki/                # カラーWiki
-│   │   ├── documentation/       # カラー詳細ドキュメント  
-│   │   ├── resources/           # カラーリソース
-│   │   └── gradients/           # グラデーション
-│   ├── logo/                     # ロゴセクション
-│   │   ├── page.tsx             # メインロゴページ
-│   │   ├── wiki/                # ロゴWiki
-│   │   └── placeholder-logos/   # プレースホルダーロゴ
-│   ├── type/                     # タイポグラフィセクション
-│   │   ├── page.tsx             # タイプメインページ
-│   │   ├── typography-en/       # 英語タイポグラフィ
-│   │   ├── typography-jp/       # 日本語タイポグラフィ
-│   │   ├── wiki/                # タイプWiki
-│   │   ├── documentation/       # タイプドキュメント
-│   │   └── resources/           # タイプリソース
-│   ├── icons/                    # アイコンセクション
-│   │   ├── page.tsx             # ブランドアイコン（メイン）
-│   │   ├── company-icons/       # 会社アイコン
-│   │   ├── wiki/                # アイコンWiki  
-│   │   └── documentation/       # アイコンドキュメント
-│   ├── imagery/                  # イメージセクション
-│   │   ├── page.tsx             # ポートレート（メイン）
-│   │   ├── textures/            # テクスチャ
-│   │   ├── wiki/                # イメージWiki
-│   │   └── documentation/       # イメージドキュメント
-│   ├── grids/                    # グリッドセクション
-│   │   └── page.tsx             # グリッドシステム
-│   ├── globals.css               # グローバルスタイル
-│   ├── layout.tsx                # ルートレイアウト
-│   └── page.tsx                  # Getting Startedホームページ
-├── components/                   # 共通コンポーネント
-│   ├── Logo.tsx                  # ロゴコンポーネント
-│   └── ScrollNavigation.tsx      # ナビゲーションコンポーネント
-├── public/
-│   └── assets/                   # 静的アセット管理
-│       ├── icons/                # SVGアイコン、ファビコン
-│       ├── images/               # ページ用画像、背景画像
-│       ├── logos/                # ロゴ画像（SVG、PNG）
-│       ├── illustrations/        # イラスト、グラフィック素材
-│       └── README.md             # アセット管理ガイド
-├── tailwind.config.ts            # カスタムカラー・フォント設定
-├── package.json
-├── README.md
-└── .gitignore
+├── 📁 app/                    # Next.js App Router
+│   ├── 🎨 color/            # カラーセクション（5ページ）
+│   ├── ✍️ type/             # タイポグラフィセクション（5ページ）
+│   ├── 🎯 icons/            # アイコンセクション（4ページ）
+│   ├── 🖼️ imagery/          # イメージセクション（4ページ）
+│   ├── 🏗️ grids/            # グリッドセクション（4ページ）
+│   ├── ✨ effects/          # エフェクトセクション（4ページ）
+│   ├── 🏷️ logo/             # ロゴセクション（3ページ）
+│   └── 📄 page.tsx          # ホームページ
+├── 🧩 components/           # 共通コンポーネント
+│   ├── Logo.tsx             # ロゴコンポーネント
+│   └── ScrollNavigation.tsx # ドロップダウン付きナビゲーション
+└── 🖼️ public/assets/images/ # 129枚の整理済み画像
+    ├── home_started_01-07.png
+    ├── color_wiki_01-20.png
+    ├── effects_blur_01-06.png
+    └── ... (section_page_number で整理)
 ```
 
-## フォント設定
+## 🎨 デザイン機能
 
-- **Host Grotesk**: 英語テキスト用（500, 600, 700 weight）
-- **IBM Plex Sans JP**: 日本語テキスト用（400, 500, 600, 700 weight）
-
-フォントはGoogle Fontsから自動的に読み込まれます。
-
-## アセット管理
-
-### 📁 静的ファイルの配置
-
-画像やアイコンは`public/assets/`フォルダに整理して配置されています：
-
-```
-public/assets/
-├── icons/           # SVGアイコン、ファビコン
-├── images/          # Getting Startedページ用画像（Started-img-1.png〜7.png）
-├── logos/           # ロゴ画像（Logo.svg）
-└── illustrations/   # イラスト、グラフィック素材
-```
-
-### 🎯 現在使用中のアセット
-
-**ロゴ:**
-- `Logo.svg` - メインロゴ（ヘッダー・フッターで使用）
-
-**画像:**
-- `Started-img-1.png` - Core Brand Elements セクション
-- `Started-img-2.png` - Brand Guidelines セクション（1枚目）
-- `Started-img-3.png` - Brand Guidelines セクション（2枚目）
-- `Started-img-4.png` - Basic Components セクション
-- `Started-img-5.png` - Browsers & Devices セクション
-- `Started-img-6.png` - Social Templates セクション
-- `Started-img-7.png` - Email UI セクション
-
-### 🎯 使用例
-
-```tsx
-// ロゴコンポーネントで使用（Mediumサイズ: 130×48px）
-<Image src="/assets/logos/Logo.svg" alt="Kit Design System Logo" width={130} height={48} />
-
-// セクション画像の場合（1265×709px - !important完全強制指定、Figmaデザイン完全準拠）
-<img 
-  src="/assets/images/Started-img-1.png" 
-  alt="Core Brand Elements" 
-  width="1265" 
-  height="709" 
-  className="block"
-  style={{ 
-    width: '1265px !important', 
-    height: '709px !important',
-    minWidth: '1265px',
-    minHeight: '709px',
-    maxWidth: '1265px', 
-    maxHeight: '709px',
-    objectFit: 'cover'
-  }}
-/>
-```
-
-## カスタマイズ
-
-### カラーパレット
-Tailwind設定で以下のカスタムカラーが定義されています：
-- `grey-50`: #F2F2F0
-- `grey-300`: #67697C  
-- `grey-900`: #010109
-- `grey-white`: #FFFFFF
+### ナビゲーションシステム
+- **スマートドロップダウン**: 6つのメインセクションとサブナビゲーション
+- **アクティブ状態**: 現在のページのハイライト表示
+- **ホバーエフェクト**: スムーズなトランジションと背景ブラー
+- **レスポンシブ**: 全画面サイズに最適化
 
 ### タイポグラフィ
-カスタムフォントサイズが定義されています：
-- `display-xxl`: 112px
-- `heading-medium`: 32px
-- `heading-small`: 24px
-- `text-large`: 18px
+- **Host Grotesk**: 英語コンテンツ用（ウェイト: 500, 600, 700）
+- **IBM Plex Sans JP**: 日本語コンテンツ用（ウェイト: 400, 500, 600, 700）
+- **カスタムサイズ**: `display-xxl`, `heading-medium`, `heading-small`, `text-large`
 
-## デプロイ
+### カラーシステム
+- **プライマリ**: `grey-900` (#010109) - ダーク背景
+- **セカンダリ**: `grey-300` (#67697C) - セカンダリテキスト
+- **アクセント**: `grey-50` (#F2F2F0) - プライマリテキスト
+- **ホワイト**: `grey-white` (#FFFFFF) - ハイライト
+
+## 🖼️ 画像の整理
+
+すべての画像は統一された命名規則に従います: `{セクション}_{ページ}_{番号}.png`
+
+### 例:
+- `home_started_01.png` - ホームページ画像
+- `color_wiki_15.png` - カラーWiki画像
+- `effects_blur_03.png` - エフェクトブラー画像
+- `grids_documentation_02.png` - グリッドドキュメント画像
+
+## 🛠️ 技術スタック
+
+| 技術 | バージョン | 目的 |
+|------------|---------|---------|
+| **Next.js** | 14.0.4 | Reactフレームワーク |
+| **TypeScript** | 最新 | 型安全性 |
+| **Tailwind CSS** | 最新 | スタイリング |
+| **React** | 18+ | UIライブラリ |
+
+## 🎯 開発
+
+### 新しいセクションの追加
+1. `app/` にフォルダを作成
+2. `page.tsx` でページを追加
+3. `ScrollNavigation.tsx` の型を更新
+4. ドロップダウンナビゲーションを追加
+5. `public/assets/images/` に画像を配置
+
+### 画像のガイドライン
+- 統一された命名規則を使用: `{セクション}_{ページ}_{番号}.png`
+- Web用に最適化（適切なファイルサイズ）
+- デザインのアスペクト比を維持
+- `/public/assets/images/` に配置
+
+## 📈 最近の更新
+
+- ✅ Effectsセクションの完全実装
+- ✅ フォルダ構造の再編成（SpacingをGridsに移動）
+- ✅ 統一された命名規則での画像リネーム
+- ✅ ナビゲーションドロップダウンシステム
+- ✅ 129枚すべての画像の整理とリンク
+- ✅ 多言語コンテンツサポート
+
+## 🚀 デプロイ
 
 ```bash
+# 本番用ビルド
 npm run build
+
+# 本番サーバー起動
 npm start
 ```
 
-## ライセンス
+## 📄 ライセンス
 
-このプロジェクトは社内使用を目的としています。 
+社内使用のみ。すべての権利は保護されています。
+
+---
+
+**❤️ を込めて Next.js、TypeScript、Tailwind CSS で作成**

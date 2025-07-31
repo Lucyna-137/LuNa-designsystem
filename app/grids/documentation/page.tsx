@@ -83,7 +83,7 @@ export default function GridDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Grid_Documentation_img-1.png" 
+                  src="/assets/images/grids_documentation_01.png" 
                   alt="8pt Spacing Documentation"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -134,7 +134,7 @@ export default function GridDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Grid_Documentation_img-2.png" 
+                  src="/assets/images/grids_documentation_02.png" 
                   alt="Using The Grids Documentation"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -185,7 +185,7 @@ export default function GridDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Grid_Documentation_img-3.png" 
+                  src="/assets/images/grids_documentation_03.png" 
                   alt="Updating The Grid Documentation"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />

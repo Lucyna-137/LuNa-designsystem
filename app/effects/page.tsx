@@ -86,7 +86,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/01_blur_img.png" 
+                        src="/assets/images/effects_blur_01.png" 
                         alt="Background Blur 001"
                         className="block"
                       />
@@ -95,7 +95,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/02_blur_img.png" 
+                        src="/assets/images/effects_blur_02.png" 
                         alt="Background Blur 002"
                         className="block"
                       />
@@ -104,7 +104,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/03_blur_img.png" 
+                        src="/assets/images/effects_blur_03.png" 
                         alt="Background Blur 003"
                         className="block"
                       />
@@ -113,7 +113,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/04_blur_img.png" 
+                        src="/assets/images/effects_blur_04.png" 
                         alt="Background Blur 004"
                         className="block"
                       />
@@ -122,7 +122,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/05_blur_img.png" 
+                        src="/assets/images/effects_blur_05.png" 
                         alt="Background Blur 005"
                         className="block"
                       />
@@ -131,7 +131,7 @@ export default function BlurPage() {
                   <div className="relative">
                     <div className="bg-grey-900 rounded-lg overflow-hidden relative">
                       <img 
-                        src="/assets/images/06_blur_img.png" 
+                        src="/assets/images/effects_blur_06.png" 
                         alt="Background Blur 006"
                         className="block"
                       />

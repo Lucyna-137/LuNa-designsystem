@@ -3,8 +3,8 @@ import React from 'react';
 import Logo from '../../../components/Logo';
 import ScrollNavigation from '../../../components/ScrollNavigation';
 
-const imgPortrait = "/assets/images/img_Documentation_img-1.png";
-const imgPortrait1 = "/assets/images/img_Documentation_img-2.png";
+const imgPortrait = "/assets/images/imagery_documentation_01.png";
+const imgPortrait1 = "/assets/images/imagery_documentation_02.png";
 
 export default function ImageWiki() {
   return (

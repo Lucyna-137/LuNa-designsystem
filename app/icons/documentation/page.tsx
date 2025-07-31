@@ -100,7 +100,7 @@ export default function IconDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/icon_Documentation_img-1.png" 
+                  src="/assets/images/icons_documentation_01.png" 
                   alt="Brand Icons"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -151,7 +151,7 @@ export default function IconDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/icon_Documentation_img-2.png" 
+                  src="/assets/images/icons_documentation_02.png" 
                   alt="Accessing The Brand Icons"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />
@@ -202,7 +202,7 @@ export default function IconDocumentationPage() {
               {/* Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/icon_Documentation_img-3.png" 
+                  src="/assets/images/icons_documentation_03.png" 
                   alt="Accessing The Company Icons"
                   className="w-full h-auto object-cover rounded-lg max-w-[1177px]"
                 />

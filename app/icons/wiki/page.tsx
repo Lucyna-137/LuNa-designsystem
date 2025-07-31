@@ -85,7 +85,7 @@ export default function IconWikiPage() {
               {/* Brand Icons Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/icon_wiki_img-1.png" 
+                  src="/assets/images/icons_wiki_01.png" 
                   alt="Brand Icons"
                   className="w-full h-auto object-cover rounded-lg"
                 />
@@ -139,7 +139,7 @@ export default function IconWikiPage() {
               {/* Company Icons Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/icon_wiki_img-2.png" 
+                  src="/assets/images/icons_wiki_02.png" 
                   alt="Company Icons"
                   className="w-full h-auto object-cover rounded-lg"
                 />

@@ -91,7 +91,7 @@ export default function TypeWikiPage() {
               {/* First Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Typewiki_img-1.png" 
+                  src="/assets/images/type_wiki_01.png" 
                   alt="Type Wiki Image 1"
                   className="w-full h-auto object-cover"
                 />
@@ -100,7 +100,7 @@ export default function TypeWikiPage() {
               {/* Second Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Typewiki_img-2.png" 
+                  src="/assets/images/type_wiki_02.png" 
                   alt="Type Wiki Image 2"
                   className="w-full h-auto object-cover"
                 />
@@ -1757,7 +1757,7 @@ export default function TypeWikiPage() {
               {/* Font Weights Image */}
               <div className="w-full">
                 <img 
-                  src="/assets/images/Typewiki_img-3.png" 
+                  src="/assets/images/type_wiki_03.png" 
                   alt="Font Weights Display"
                   className="w-full h-auto object-cover"
                 />
