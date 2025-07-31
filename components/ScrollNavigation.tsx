@@ -5,7 +5,7 @@ import Logo from './Logo';
 
 interface ScrollNavigationProps {
   children?: React.ReactNode;
-  currentPage?: 'home' | 'logo' | 'logo-wiki' | 'placeholder-logos' | 'color' | 'color-wiki' | 'color-documentation' | 'color-resources' | 'gradients' | 'type' | 'typography-en' | 'typography-jp' | 'type-wiki' | 'type-documentation' | 'type-resources' | 'icons' | 'brand-icons' | 'icon-wiki' | 'icon-documentation' | 'imagery' | 'textures' | 'image-wiki' | 'imagery-documentation' | 'grids';
+  currentPage?: 'home' | 'logo' | 'logo-wiki' | 'placeholder-logos' | 'color' | 'color-wiki' | 'color-documentation' | 'color-resources' | 'gradients' | 'type' | 'typography-en' | 'typography-jp' | 'type-wiki' | 'type-documentation' | 'type-resources' | 'icons' | 'brand-icons' | 'icon-wiki' | 'icon-documentation' | 'imagery' | 'textures' | 'image-wiki' | 'imagery-documentation' | 'grids' | 'spacing' | 'grids-documentation' | 'grids-wiki' | 'effects' | 'blur' | 'shadows' | 'effects-documentation' | 'effects-wiki';
 }
 
 export default function ScrollNavigation({ children, currentPage = 'home' }: ScrollNavigationProps) {
@@ -15,11 +15,15 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
   const [isTypeDropdownHovered, setIsTypeDropdownHovered] = useState(false);
   const [isIconsDropdownHovered, setIsIconsDropdownHovered] = useState(false);
   const [isImageryDropdownHovered, setIsImageryDropdownHovered] = useState(false);
+  const [isGridsDropdownHovered, setIsGridsDropdownHovered] = useState(false);
+  const [isEffectsDropdownHovered, setIsEffectsDropdownHovered] = useState(false);
   const isLogoDropdownHoveredRef = useRef(false);
   const isColorDropdownHoveredRef = useRef(false);
   const isTypeDropdownHoveredRef = useRef(false);
   const isIconsDropdownHoveredRef = useRef(false);
   const isImageryDropdownHoveredRef = useRef(false);
+  const isGridsDropdownHoveredRef = useRef(false);
+  const isEffectsDropdownHoveredRef = useRef(false);
 
   // refを最新の値で更新
   useEffect(() => {
@@ -28,14 +32,16 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
     isTypeDropdownHoveredRef.current = isTypeDropdownHovered;
     isIconsDropdownHoveredRef.current = isIconsDropdownHovered;
     isImageryDropdownHoveredRef.current = isImageryDropdownHovered;
-  }, [isLogoDropdownHovered, isColorDropdownHovered, isTypeDropdownHovered, isIconsDropdownHovered, isImageryDropdownHovered]);
+    isGridsDropdownHoveredRef.current = isGridsDropdownHovered;
+    isEffectsDropdownHoveredRef.current = isEffectsDropdownHovered;
+  }, [isLogoDropdownHovered, isColorDropdownHovered, isTypeDropdownHovered, isIconsDropdownHovered, isImageryDropdownHovered, isGridsDropdownHovered, isEffectsDropdownHovered]);
 
   // ドロップダウンホバー時はナビゲーションを強制表示
   useEffect(() => {
-    if (isLogoDropdownHovered || isColorDropdownHovered || isTypeDropdownHovered || isIconsDropdownHovered || isImageryDropdownHovered) {
+    if (isLogoDropdownHovered || isColorDropdownHovered || isTypeDropdownHovered || isIconsDropdownHovered || isImageryDropdownHovered || isGridsDropdownHovered || isEffectsDropdownHovered) {
       setIsVisible(true);
     }
-  }, [isLogoDropdownHovered, isColorDropdownHovered, isTypeDropdownHovered, isIconsDropdownHovered, isImageryDropdownHovered]);
+  }, [isLogoDropdownHovered, isColorDropdownHovered, isTypeDropdownHovered, isIconsDropdownHovered, isImageryDropdownHovered, isGridsDropdownHovered, isEffectsDropdownHovered]);
 
   useEffect(() => {
     let ticking = false;
@@ -45,7 +51,7 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
       if (!ticking) {
         requestAnimationFrame(() => {
           // ドロップダウンがホバーされている時はスクロール制御をスキップ
-          if (isLogoDropdownHoveredRef.current || isColorDropdownHoveredRef.current || isTypeDropdownHoveredRef.current || isIconsDropdownHoveredRef.current || isImageryDropdownHoveredRef.current) {
+          if (isLogoDropdownHoveredRef.current || isColorDropdownHoveredRef.current || isTypeDropdownHoveredRef.current || isIconsDropdownHoveredRef.current || isImageryDropdownHoveredRef.current || isGridsDropdownHoveredRef.current || isEffectsDropdownHoveredRef.current) {
             ticking = false;
             return;
           }
@@ -78,7 +84,7 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
     }`}>
       {/* Navigation Background */}
       <div className={`absolute top-0 left-0 right-0 bg-grey-900/80 backdrop-blur-lg transition-all duration-200 ${
-        (isLogoDropdownHovered || isColorDropdownHovered || isTypeDropdownHovered || isIconsDropdownHovered || isImageryDropdownHovered) ? 'bottom-[-180px]' : 'bottom-0'
+        (isLogoDropdownHovered || isColorDropdownHovered || isTypeDropdownHovered || isIconsDropdownHovered || isImageryDropdownHovered || isGridsDropdownHovered || isEffectsDropdownHovered) ? 'bottom-[-180px]' : 'bottom-0'
       }`}></div>
               <div className="fixed-padding-container relative z-10">
           <div className="content-responsive">
@@ -273,17 +279,73 @@ export default function ScrollNavigation({ children, currentPage = 'home' }: Scr
                     </div>
                   </div>
                 </div>
-                <div className={`relative shrink-0 transition-colors cursor-pointer ${currentPage === 'grids' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                <div 
+                  className={`relative shrink-0 transition-colors cursor-pointer ${currentPage === 'grids' || currentPage === 'spacing' || currentPage === 'grids-documentation' || currentPage === 'grids-wiki' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}
+                  onMouseEnter={() => setIsGridsDropdownHovered(true)}
+                  onMouseLeave={() => setIsGridsDropdownHovered(false)}
+                >
                   <Link href="/grids">
                     <p className="block leading-[1.4]">
                       Grids
                     </p>
                   </Link>
+                  {/* Dropdown Menu */}
+                  <div 
+                    className={`absolute top-full left-0 pt-2 w-48 transition-all duration-200 z-50 ${
+                      isGridsDropdownHovered ? 'opacity-100 visible' : 'opacity-0 invisible'
+                    }`}
+                    onMouseEnter={() => setIsGridsDropdownHovered(true)}
+                    onMouseLeave={() => setIsGridsDropdownHovered(false)}
+                  >
+                    <div className="py-2 pb-8">
+                      <Link href="/grids" className={`block py-2 text-sm transition-colors ${currentPage === 'grids' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Grids
+                      </Link>
+                      <Link href="/grids/spacing" className={`block py-2 text-sm transition-colors ${currentPage === 'spacing' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Spacing
+                      </Link>
+                      <Link href="/grids/wiki" className={`block py-2 text-sm transition-colors ${currentPage === 'grids-wiki' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Grid Wiki
+                      </Link>
+                      <Link href="/grids/documentation" className={`block py-2 text-sm transition-colors ${currentPage === 'grids-documentation' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Grids Documentation
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-                <div className="relative shrink-0 text-grey-300">
-                  <p className="block leading-[1.4]">
-                    Effects
-                  </p>
+                <div 
+                  className={`relative shrink-0 transition-colors cursor-pointer ${currentPage === 'effects' || currentPage === 'blur' || currentPage === 'shadows' || currentPage === 'effects-documentation' || currentPage === 'effects-wiki' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}
+                  onMouseEnter={() => setIsEffectsDropdownHovered(true)}
+                  onMouseLeave={() => setIsEffectsDropdownHovered(false)}
+                >
+                  <Link href="/effects">
+                    <p className="block leading-[1.4]">
+                      Effects
+                    </p>
+                  </Link>
+                  {/* Dropdown Menu */}
+                  <div 
+                    className={`absolute top-full left-0 pt-2 w-48 transition-all duration-200 z-50 ${
+                      isEffectsDropdownHovered ? 'opacity-100 visible' : 'opacity-0 invisible'
+                    }`}
+                    onMouseEnter={() => setIsEffectsDropdownHovered(true)}
+                    onMouseLeave={() => setIsEffectsDropdownHovered(false)}
+                  >
+                    <div className="py-2 pb-8">
+                      <Link href="/effects" className={`block py-2 text-sm transition-colors ${currentPage === 'effects' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Blur
+                      </Link>
+                      <Link href="/effects/shadows" className={`block py-2 text-sm transition-colors ${currentPage === 'shadows' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Shadows
+                      </Link>
+                      <Link href="/effects/wiki" className={`block py-2 text-sm transition-colors ${currentPage === 'effects-wiki' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Effects Wiki
+                      </Link>
+                      <Link href="/effects/documentation" className={`block py-2 text-sm transition-colors ${currentPage === 'effects-documentation' ? 'text-grey-50' : 'text-grey-300 hover:text-grey-50'}`}>
+                        Effects Documentation
+                      </Link>
+                    </div>
+                  </div>
                 </div>
                 <div className="relative shrink-0 text-grey-300">
                   <p className="block leading-[1.4]">
