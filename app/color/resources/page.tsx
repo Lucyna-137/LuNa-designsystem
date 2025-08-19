@@ -98,6 +98,8 @@ export default function ColorResourcesPage() {
                   <div className="flex flex-col gap-[7px] w-full">
                     <a
                       href="https://developer.apple.com/design/human-interface-guidelines/color"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="font-['Poppins',_sans-serif] font-normal text-grey-50 text-[24px] tracking-[-0.48px] leading-[1.4] underline cursor-pointer block"
                     >
                       Apple Color Guide
@@ -126,6 +128,8 @@ export default function ColorResourcesPage() {
                   <div className="flex flex-col gap-[7px] w-full">
                     <a
                       href="https://m3.material.io/styles/color/system/overview"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="font-['Poppins',_sans-serif] font-normal text-grey-50 text-[24px] tracking-[-0.48px] leading-[1.4] underline cursor-pointer block"
                     >
                       Material Design Color
@@ -154,6 +158,8 @@ export default function ColorResourcesPage() {
                   <div className="flex flex-col gap-[7px] w-full">
                     <a
                       href="https://brandkitpro.framer.website/course"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="font-['Poppins',_sans-serif] font-normal text-grey-50 text-[24px] tracking-[-0.48px] leading-[1.4] underline cursor-pointer block"
                     >
                       Brand Mastery Course

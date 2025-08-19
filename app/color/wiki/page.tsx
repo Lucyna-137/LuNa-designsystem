@@ -80,7 +80,7 @@ const EditableColorSwatch = ({ initialColor, initialName, initialHex, onColorCha
                 title="Copy color code"
               >
                 <img 
-                  src="/assets/icons/clipboard-document-check.svg" 
+                  src="/assets/icons/215_clipboard-document-check.svg" 
                   alt="Copy" 
                   className="w-6 h-6 hover:opacity-70 transition-opacity"
                 />
@@ -92,7 +92,7 @@ const EditableColorSwatch = ({ initialColor, initialName, initialHex, onColorCha
                 title="Edit color"
               >
                 <img 
-                  src="/assets/icons/pencil.svg" 
+                  src="/assets/icons/159_pencil.svg" 
                   alt="Edit" 
                   className="w-6 h-6 hover:opacity-70 transition-opacity"
                 />
