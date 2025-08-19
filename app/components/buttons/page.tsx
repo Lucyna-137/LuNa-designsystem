@@ -687,9 +687,22 @@ export default function ButtonsPage() {
                   </button>
                   
                   {/* Row 2: Hover State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
                   <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
@@ -773,15 +786,42 @@ export default function ButtonsPage() {
                   columnGap: '37px', 
                   rowGap: '32px' 
                 }}>
-                  {/* Row 1: Default State */}
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[74px] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
+                  {/* Row 1: Default State (Dark, inner highlight/shadow) */}
+                  <button
+                    className="relative w-[74px] h-[36px] px-[15px] py-[7px] rounded-[10px] font-host-grotesk font-medium text-sm leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
+                    style={{
+                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
+                      boxShadow:
+                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
+                    }}
+                  >
+                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
+                      Button
+                    </span>
                   </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[82px] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
+                  <button
+                    className="relative w-[82px] h-[40px] px-[19px] py-[9px] rounded-[10px] font-host-grotesk font-medium text-sm leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
+                    style={{
+                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
+                      boxShadow:
+                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
+                    }}
+                  >
+                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
+                      Button
+                    </span>
                   </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[108px] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] transition-colors" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
+                  <button
+                    className="relative w-[108px] h-[49px] px-[23px] py-[12px] rounded-[10px] font-host-grotesk font-medium text-[18px] leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
+                    style={{
+                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
+                      boxShadow:
+                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
+                    }}
+                  >
+                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
+                      Button
+                    </span>
                   </button>
                   
                   {/* Row 2: Hover State */}
@@ -828,9 +868,22 @@ export default function ButtonsPage() {
                   </button>
                   
                   {/* Row 2: Hover State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
                   <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
