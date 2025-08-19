@@ -1269,33 +1269,33 @@ export default function TypeWikiPage() {
               className="box-border content-stretch flex flex-col items-start justify-start px-0 pt-[180px] pb-0 relative shrink-0 content-responsive"
               data-name="Typography Scale Table"
             >
-              {/* Outer Container Frame - 1775px width */}
-              <div className="w-[1775px] bg-transparent border border-[#67697c] rounded-3xl mx-auto py-20 px-0 flex flex-col gap-2.5 items-center justify-center">
-                <div className="w-[1255px] bg-transparent overflow-hidden relative">
+              {/* Outer Container Frame - responsive width */}
+              <div className="w-full max-w-[1775px] bg-transparent border border-[#67697c] rounded-3xl mx-auto py-20 px-8 flex flex-col gap-2.5 items-center justify-center">
+                <div className="w-full max-w-[1255px] bg-transparent overflow-hidden relative">
                 {/* Table Header */}
-                <div className="relative rounded-[40px] bg-transparent border border-[#67697c] h-16 mb-6">
-                  <div className="absolute font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] left-[34px] top-1/2 transform -translate-y-1/2">
-                    <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                <div className="rounded-[40px] bg-transparent border border-[#67697c] h-16 mb-6 flex items-center px-8">
+                  <div className="flex-1 font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px]">
+                    <p className="adjustLetterSpacing block leading-[1.4]">
                       ID
                     </p>
                   </div>
-                  <div className="absolute font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-                    <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="flex-1 font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] text-center">
+                    <p className="adjustLetterSpacing block leading-[1.4]">
                       Typeface
                     </p>
                   </div>
-                  <div className="absolute font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre text-center">
+                  <div className="flex-1 font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] text-center">
+                    <p className="adjustLetterSpacing block leading-[1.4]">
                       Scale
                     </p>
                   </div>
-                  <div className="absolute font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre text-center">
+                  <div className="flex-1 font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] text-center">
+                    <p className="adjustLetterSpacing block leading-[1.4]">
                       Line Height
                     </p>
                   </div>
-                  <div className="absolute font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                    <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre text-center">
+                  <div className="flex-1 font-host-grotesk font-medium text-[#67697c] text-[24px] tracking-[-0.48px] text-center">
+                    <p className="adjustLetterSpacing block leading-[1.4]">
                       Tracking
                     </p>
                   </div>
@@ -1304,406 +1304,406 @@ export default function TypeWikiPage() {
                 {/* Table Body */}
                 <div className="space-y-12">
                   {/* Scale/12 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/12
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         12px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         0%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/14 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/14
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         14px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         0%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/16 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/16
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         16px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         0%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/18 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/18
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         18px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         0%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/20 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/20
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         20px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         0%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/24 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/24
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         24px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         140%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -2%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/32 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/32
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         32px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         130%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -2%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/48 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/48
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         48px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         120%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -3%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/56 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/56
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         56px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         120%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -3%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/64 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/64
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         64px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         110%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -3%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/72 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/72
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         72px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         110%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -4%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/88 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/88
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         88px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         100%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -4%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/96 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/96
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         96px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         100%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -4%
                       </p>
                     </div>
                   </div>
 
                   {/* Scale/112 */}
-                  <div className="relative h-12 rounded-lg">
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[34px] top-1/2 transform -translate-y-1/2 tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                  <div className="h-12 rounded-lg flex items-center px-8">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Scale/112
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[400px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 tracking-[-0.48px] text-center">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] tracking-[-0.48px] text-center">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         Host Grotesk
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[620px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         112px
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[800px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         100%
                       </p>
                     </div>
-                    <div className="absolute font-host-grotesk font-normal text-grey-50 text-[24px] left-[1050px] top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center tracking-[-0.48px]">
-                      <p className="adjustLetterSpacing block leading-[1.4] whitespace-pre">
+                    <div className="flex-1 font-host-grotesk font-normal text-grey-50 text-[24px] text-center tracking-[-0.48px]">
+                      <p className="adjustLetterSpacing block leading-[1.4]">
                         -4%
                       </p>
                     </div>
