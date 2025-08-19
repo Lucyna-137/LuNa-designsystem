@@ -704,13 +704,39 @@ export default function ButtonsPage() {
                       Button
                     </span>
                   </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-medium text-lg leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
                   
                   {/* Row 3: Disabled State */}
@@ -885,13 +911,39 @@ export default function ButtonsPage() {
                       Button
                     </span>
                   </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
+                  <button 
+                    className="relative h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-medium text-lg leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
+                    style={{
+                      border: '2px solid #4648ff',
+                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
+                    }}
+                  >
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
+                    <span 
+                      className="bg-clip-text text-transparent font-medium"
+                      style={{
+                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
+                      }}
+                    >
+                      Button
+                    </span>
                   </button>
                   
                   {/* Row 3: Disabled State */}
