@@ -29,7 +29,7 @@ export default function ComponentsPage() {
             </div>
 
             {/* Content Section */}
-            <div className="box-border content-stretch flex flex-col gap-20 items-start justify-start pb-20 pt-[100px] px-0 relative content-responsive">
+            <div className="box-border content-stretch flex flex-col gap-20 items-start justify-start pt-[100px] pb-[60px] px-0 relative content-responsive">
               {/* Description */}
               <div className="box-border content-stretch flex flex-col lg:flex-row gap-12 lg:gap-24 items-start justify-start p-0 relative">
                 <div className="box-border content-stretch flex flex-col font-host-grotesk font-normal gap-4 items-start justify-start p-0 relative">
@@ -106,7 +106,7 @@ export default function ComponentsPage() {
 
             {/* Footer */}
             <div
-              className="box-border content-stretch flex flex-col md:flex-row items-start md:items-center justify-between pb-20 pt-[60px] md:pt-[80px] lg:pt-[100px] px-0 relative shrink-0 content-responsive gap-6 md:gap-8"
+              className="box-border content-stretch flex flex-col md:flex-row items-start md:items-center justify-between pb-0 pt-[60px] md:pt-[80px] lg:pt-[100px] px-0 relative shrink-0 content-responsive gap-6 md:gap-8"
               data-name="Footer"
             >
               <div

@@ -29,7 +29,7 @@ export default function ButtonsPage() {
             </div>
 
             {/* Content Section */}
-            <div className="box-border content-stretch flex flex-col gap-20 items-start justify-start pb-20 pt-[100px] px-0 relative content-responsive">
+            <div className="box-border content-stretch flex flex-col gap-20 items-start justify-start py-[100px] px-0 relative content-responsive">
               {/* Description */}
               <div className="box-border content-stretch flex flex-col lg:flex-row gap-12 lg:gap-24 items-start justify-start p-0 relative">
                 <div className="box-border content-stretch flex flex-col font-host-grotesk font-normal gap-4 items-start justify-start p-0 relative">
@@ -687,263 +687,17 @@ export default function ButtonsPage() {
                   </button>
                   
                   {/* Row 2: Hover State */}
-                  <button 
-                    className="relative h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
-                  </button>
-                  <button 
-                    className="relative h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
-                  </button>
-                  <button 
-                    className="relative h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-medium text-lg leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
-                  </button>
-                  
-                  {/* Row 3: Disabled State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
-                  </button>
-                </div>
-
-                {/* Text + Icon Buttons - 3x3 Layout */}
-                <div className="grid flex-shrink-0" style={{ 
-                  gridTemplateColumns: 'auto auto auto',
-                  columnGap: '37px', 
-                  rowGap: '32px' 
-                }}>
-                  {/* Row 1: Default State */}
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  
-                  {/* Row 2: Hover State */}
                   <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
+                    Button
                   </button>
                   <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
+                    Button
                   </button>
                   <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  
-                  {/* Row 3: Disabled State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] opacity-50 cursor-not-allowed flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                  </button>
-                </div>
-                </div>
-
-                {/* Sixth Row - Outline Buttons (Duplicate) */}
-                <div className="w-full flex flex-wrap gap-8 xl:gap-[200px]" data-name="Button">
-                {/* Text Only Buttons - 3x3 Layout */}
-                <div className="grid flex-shrink-0" style={{ 
-                  gridTemplateColumns: '74px 82px 108px',
-                  columnGap: '37px', 
-                  rowGap: '32px' 
-                }}>
-                  {/* Row 1: Default State (Dark, inner highlight/shadow) */}
-                  <button
-                    className="relative w-[74px] h-[36px] px-[15px] py-[7px] rounded-[10px] font-host-grotesk font-medium text-sm leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
-                    style={{
-                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
-                      boxShadow:
-                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
-                    }}
-                  >
-                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
-                      Button
-                    </span>
-                  </button>
-                  <button
-                    className="relative w-[82px] h-[40px] px-[19px] py-[9px] rounded-[10px] font-host-grotesk font-medium text-sm leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
-                    style={{
-                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
-                      boxShadow:
-                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
-                    }}
-                  >
-                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
-                      Button
-                    </span>
-                  </button>
-                  <button
-                    className="relative w-[108px] h-[49px] px-[23px] py-[12px] rounded-[10px] font-host-grotesk font-medium text-[18px] leading-[1.4] transition-colors text-[#b9bac7] border-[0.5px] border-[#1b1d29] hover:border-[#242736] focus:outline-none focus:ring-2 focus:ring-[#7b7d90]/40 shadow-[0_2px_8px_rgba(0,0,0,0.45)] hover:brightness-110"
-                    style={{
-                      background: 'linear-gradient(90deg, #16171F 0%, #000000 100%)',
-                      boxShadow:
-                        'inset 0 1px 0 rgba(255,255,255,0.06), inset 0 -1px 0 rgba(0,0,0,0.60), inset 0 0 0 1px rgba(255,255,255,0.04), 0 2px 8px rgba(0,0,0,0.45)'
-                    }}
-                  >
-                    <span className="bg-clip-text text-transparent" style={{backgroundImage: 'linear-gradient(90deg, #4D4F60 0%, #292A36 100%)'}}>
-                      Button
-                    </span>
-                  </button>
-                  
-                  {/* Row 2: Hover State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[74px] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4]" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[82px] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4]" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[108px] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4]" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                  
-                  {/* Row 3: Disabled State */}
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[74px] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[82px] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] opacity-50 cursor-not-allowed" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                  <button className="bg-[rgba(70,72,255,0.15)] text-[#4648ff] w-[108px] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] opacity-50 cursor-not-allowed" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    Button
-                  </button>
-                </div>
-
-                {/* Icon + Text Buttons - 3x3 Layout */}
-                <div className="grid flex-shrink-0" style={{ 
-                  gridTemplateColumns: 'auto auto auto',
-                  columnGap: '37px', 
-                  rowGap: '32px' 
-                }}>
-                  {/* Row 1: Default State */}
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
                     <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
                     Button
-                  </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-normal text-sm leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
-                  </button>
-                  <button className="bg-transparent hover:bg-[rgba(70,72,255,0.15)] text-[#4648ff] h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-normal text-lg leading-[1.4] transition-colors flex items-center gap-2" style={{boxShadow: 'inset 0 0 0 2px #4648ff'}}>
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    Button
-                  </button>
-                  
-                  {/* Row 2: Hover State */}
-                  <button 
-                    className="relative h-[36px] px-[15px] py-[7px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
-                  </button>
-                  <button 
-                    className="relative h-[40px] px-[19px] py-[9px] rounded-lg font-host-grotesk font-medium text-sm leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
-                  </button>
-                  <button 
-                    className="relative h-[49px] px-[23px] py-[12px] rounded-lg font-host-grotesk font-medium text-lg leading-[1.4] flex items-center gap-2 bg-transparent transition-all duration-200 hover:shadow-lg" 
-                    style={{
-                      border: '2px solid #4648ff',
-                      boxShadow: '0 0 20px rgba(70, 72, 255, 0.3)'
-                    }}
-                  >
-                    <img src="/assets/icons/131_hand-thumb-up.svg" alt="Thumbs Up" className="w-5 h-5" style={{filter: 'brightness(0) saturate(100%) invert(27%) sepia(91%) saturate(4573%) hue-rotate(232deg) brightness(102%) contrast(107%)'}} />
-                    <span 
-                      className="bg-clip-text text-transparent font-medium"
-                      style={{
-                        backgroundImage: 'linear-gradient(90deg, #8B5CF6 0%, #3B82F6 100%)'
-                      }}
-                    >
-                      Button
-                    </span>
                   </button>
                   
                   {/* Row 3: Disabled State */}
@@ -1013,11 +767,11 @@ export default function ButtonsPage() {
               </div>
             </div>
 
-            {/* Footer */}
-            <div
-              className="box-border content-stretch flex flex-col md:flex-row items-start md:items-center justify-between pb-20 pt-[60px] md:pt-[80px] lg:pt-[100px] px-0 relative shrink-0 content-responsive gap-6 md:gap-8"
-              data-name="Footer"
-            >
+          {/* Footer */}
+          <div
+            className="box-border content-stretch flex flex-col md:flex-row items-start md:items-center justify-between pb-0 pt-[60px] md:pt-[80px] lg:pt-[100px] px-0 relative shrink-0 content-responsive gap-6 md:gap-8"
+            data-name="Footer"
+          >
               <div
                 className="box-border content-stretch flex flex-col font-host-grotesk font-normal gap-3 md:gap-4 items-start justify-start leading-[0] not-italic p-0 relative shrink-0 text-left w-full md:w-auto flex-1"
                 data-name="Description"

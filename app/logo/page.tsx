@@ -14,7 +14,7 @@ export default function LogoPage() {
           {/* Scroll Navigation */}
           <ScrollNavigation currentPage="logo" />
 
-          <div className="box-border content-stretch flex flex-col gap-2.5 items-start justify-start overflow-clip pb-20 pt-0 fixed-padding-container relative size-full">
+          <div className="box-border content-stretch flex flex-col gap-2.5 items-start justify-start overflow-clip pb-0 pt-0 fixed-padding-container relative size-full">
           {/* Title Section */}
           <div
             className="box-border content-stretch flex flex-col gap-[100px] items-start justify-start overflow-clip pb-2.5 pt-[100px] px-0 relative rounded-3xl shrink-0 content-responsive"
